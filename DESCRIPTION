@@ -1,0 +1,48 @@
+Package: firstrpkg
+Title: Install Workshop Materials for My Organization's First R
+    Package
+Version: 0.1.0
+Authors@R: 
+    person(given = "Malcolm",
+           family = "Barrett",
+           role = c("aut", "cre"),
+           email = "malcolmbarrett@gmail.com",
+           comment = c(ORCID = "0000-0003-0299-5825"))
+Description: Install workshop materials for My Organization's
+    First R Package.
+License: MIT + file LICENSE
+Imports: 
+    askpass,
+    available,
+    data.table,
+    DBI,
+    desc,
+    devtools,
+    fs,
+    glue,
+    gt (>= 0.1.0),
+    knitr,
+    nycflights13,
+    RMariaDB,
+    rmarkdown,
+    roxygen2,
+    RSQLite,
+    scales,
+    shiny,
+    spelling,
+    testthat,
+    tidyverse (>= 1.3.0),
+    usethis (>= 1.5.1.9000),
+    whisker,
+    xaringan
+Remotes: 
+    r-lib/usethis,
+    rstudio/gt
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.0
+SystemRequirements: libmariadb-client-lgpl-dev or
+    libmariadbclient-dev or libmysqlclient-dev, with libssl-dev (deb),
+    mariadb-connector-c-devel or mariadb-devel (rpm), mariadb-connector-c
+    or mysql-connector-c (brew)
