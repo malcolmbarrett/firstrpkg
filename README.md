@@ -21,7 +21,8 @@ need and download the workshop materials.
 You can install firstrpkg from this repository with
 
 ``` r
-install.packages("remotes")
+# if needed:
+# install.packages("remotes")
 remotes::install_github("malcolmbarrett/firstrpkg")
 ```
 
@@ -53,3 +54,6 @@ firstrpkg::install_workshop("path/to/your/computer")
 
 Replace “path/to/your/computer” with where on your computer you want the
 workshop installed.
+
+**Note that the download size of the workshop matertials is around 200
+MB and may take some time.**
