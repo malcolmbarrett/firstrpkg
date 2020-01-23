@@ -56,4 +56,4 @@ firstrpkg::install_workshop("path/to/your/computer")
 
 Replace "path/to/your/computer" with where on your computer you want the workshop installed.
 
-**Note that the download size of the workshop matertials is around 200 MB and may take some time.** 
+**Note that the download size of the workshop materials is around 200 MB and may take some time.** 
