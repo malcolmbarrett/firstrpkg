@@ -15,6 +15,9 @@ firstrpkg is an R package that will install the workshop materials for
 package will also install all the R packages we might need for the
 workshop.
 
+Please follow each of the steps below to install all the software we’ll
+need and download the workshop materials.
+
 You can install firstrpkg from this repository with
 
 ``` r
@@ -22,7 +25,27 @@ install.packages("remotes")
 remotes::install_github("malcolmbarrett/firstrpkg")
 ```
 
-Once you’ve installed the package, download the workshop materials with
+The installation of **RMariaDB** requires the installation of system
+libraries. The names of the libraries and their method of installation
+depend on the system:
+
+### Debian or Ubuntu
+
+`sudo apt-get install -y libmysqlclient-dev` `sudo apt-get install -y
+libmariadb-client-lgpl-dev`
+
+### Fedora, CentOS, or RHEL
+
+`sudo yum install mysql-devel` `sudo yum install mariadb-devel`
+
+### Mac (Homebrew)
+
+`brew install mysql-connector-c++` `brew install mariadb-connector-c`
+
+## Download the course materials
+
+Once you’ve installed the package and RMariaDB, download the workshop
+materials with
 
 ``` r
 firstrpkg::install_workshop("path/to/your/computer")
