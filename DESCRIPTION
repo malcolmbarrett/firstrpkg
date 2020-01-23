@@ -46,3 +46,5 @@ SystemRequirements: libmariadb-client-lgpl-dev or
     libmariadbclient-dev or libmysqlclient-dev, with libssl-dev (deb),
     mariadb-connector-c-devel or mariadb-devel (rpm), mariadb-connector-c
     or mysql-connector-c (brew)
+URL: https://github.com/malcolmbarrett/firstrpkg
+BugReports: https://github.com/malcolmbarrett/firstrpkg/issues
