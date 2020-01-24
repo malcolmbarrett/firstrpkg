@@ -45,7 +45,7 @@ depend on the system:
 `brew install mysql-connector-c++`  
 `brew install mariadb-connector-c`
 
-## Download the course materials
+# Download the course materials
 
 Once you’ve installed the package and RMariaDB, download the workshop
 materials with
