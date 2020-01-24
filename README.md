@@ -32,16 +32,18 @@ depend on the system:
 
 ### Debian or Ubuntu
 
-`sudo apt-get install -y libmysqlclient-dev` `sudo apt-get install -y
-libmariadb-client-lgpl-dev`
+`sudo apt-get install -y libmysqlclient-dev`  
+`sudo apt-get install -y libmariadb-client-lgpl-dev`
 
 ### Fedora, CentOS, or RHEL
 
-`sudo yum install mysql-devel` `sudo yum install mariadb-devel`
+`sudo yum install mysql-devel`  
+`sudo yum install mariadb-devel`
 
 ### Mac (Homebrew)
 
-`brew install mysql-connector-c++` `brew install mariadb-connector-c`
+`brew install mysql-connector-c++`  
+`brew install mariadb-connector-c`
 
 ## Download the course materials
 
